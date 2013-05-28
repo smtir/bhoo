@@ -1,4 +1,4 @@
-my-fast-repo
+Bhoo Responsive Wordpress Themes
 ============
 
 #Font Big
