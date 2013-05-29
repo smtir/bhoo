@@ -1,13 +1,15 @@
 Bhoo Responsive Wordpress Themes
-============
-
+***
 #Font Big
 ##Font mediam
 ###Font small
-Font bold
+**Font bold**
+_Font Italic_
 Font normal
 
-`Coding`
+> Blockquote
+
+``<?php get_header(); ?>``
 
 [Link](http://www.rm2334.com "Test Desc")
 
