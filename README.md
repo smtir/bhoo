@@ -1,7 +1,7 @@
 Bhoo Responsive Wordpress Themes, 
 Testing Edit Readme file
 
-<a name="t">Underline border</a>
+Underline border
 ----------
 ***
 #Font Big
@@ -66,4 +66,3 @@ Bullete
 [Link](http://www.rm2334.com "Test Desc")
 
 [![Alt](https://www.google.com.bd/images/srpr/logo11w.png "With link + Desc")](https://www.rm2334.com)
-<a href="#t">Test</a>
