@@ -1,0 +1,319 @@
+/* 
+=========================================
+COLOR : SLATE
+=========================================
+*/
+
+/*  ==== TABLE OF CONTENTS ===
+01. GLOBAL
+02. HEADER
+    -TIME
+    - SOCIAL
+    - LOGO
+03. NAV
+04. CONTENT
+    - BREADCRUMB
+    - META
+    - ENTRY
+    - PAGINATION
+05. POST FORMAT
+06. SIDEBAR
+07. FOOTER
+    - WIDGET
+    - COPYRIGHT
+*/
+/* ---------------------------------------------------------------------------------------
+    01. Global
+--------------------------------------------------------------------------------------- */
+body {
+    background-color: #ECE6E6;
+    background-image: url(bg.png);
+}
+/* ---------------------------------------------------------------------------------------
+    02. Header
+--------------------------------------------------------------------------------------- */
+.header-pre {
+    background: #222;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+}
+.time {
+    color: #E0E4E9;
+}
+.social a {
+    background-color: #F6EDFA;
+}
+.social a.twitter:hover {
+    background-color: #48c4d2 !important;
+}
+.social a.facebook:hover {
+    background-color: #3b5998 !important;
+}
+.social a.google-plus:hover {
+    background-color: #d94a39 !important;
+}
+.social a.rss:hover {
+    background-color: #ff6c00 !important;
+}
+.logo a {
+    color: #FFFFFF;
+    background: url(logo.png) no-repeat;
+}
+.header {
+    background: #222;
+}
+/* ---------------------------------------------------------------------------------------
+    03. Nav
+--------------------------------------------------------------------------------------- */
+#main-nav .current-menu-item > a {
+    background-color: #333;
+    color: #FFFFFF;
+}
+#main-nav .current-menu-item li.current-menu-item a,
+#main-nav .current-menu-item li.current-menu-item li.current-menu-item a {
+    background-color: #333;
+    color: #414146 !important;
+}
+#main-nav a:hover {
+    background-color: #333;
+    color: #FFFFFF;
+}
+#main-nav a {
+    color: #FFFFFF;
+}
+.menu li li {
+    background-color: #333;
+    margin: 0 !important;
+}
+.menu li li a {
+    color: #FFFFFF !important;
+}
+.menu li li a:hover {
+    background: none repeat scroll 0 0 #222 !important;
+    color: #FFFFFF !important;
+}
+.mobile-menu {
+    margin: 20px;
+}
+.mobile-menu select {
+    border: 2px solid #D8CDD7;
+    background: #16A085;
+    color: #fff;
+}
+.mobile-menu select option {
+    color: #FFFFFF;
+}
+/* ---------------------------------------------------------------------------------------
+    04. Content
+--------------------------------------------------------------------------------------- */
+article.page {
+    background: #222;
+}
+.page-title {
+    color: #222;
+}
+.post {
+    background: #222;
+}
+.meta {
+    color: #E0E4E9;
+}
+.meta a:hover {
+    color:#FF0;
+}
+.author {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;
+}
+.times {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;      
+}
+.cat {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;
+}
+.cat a {
+    color:#E0E4E9;
+}
+.tag {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;
+}
+.tag a {
+    color:#E0E4E9;
+}
+.comment {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;
+}
+.comment a {
+    color:#E0E4E9;
+}
+.more {
+    background: #3A3737;
+    color: #E0E4E9;
+}
+.more a {
+    color:#E0E4E9;
+}
+.entry-title {
+    background: #333;
+    color: #777;
+}
+.entry-title a {
+    color: #777;
+}
+.entry p {
+    color: #fff;
+}
+.entry a {
+    color: #428BCA;
+    text-decoration: none;
+}
+.thumbnaill {
+    border-bottom: 2px solid #48454C;
+}
+.pagination>.active>a, 
+.pagination>.active>span, 
+.pagination>.active>a:hover, 
+.pagination>.active>span:hover, 
+.pagination>.active>a:focus, 
+.pagination>.active>span:focus {
+    background-color: #222 !important;
+    border-color: #131212 !important;
+    color: #FFF !important;
+    font-weight: bold;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #222 !important;
+}
+.nav-previous {
+    background: #222;
+}
+.nav-next {
+    background: #222;
+}
+.nav-previous a {
+    color: #fff;
+}
+.nav-next a {
+    color: #fff;
+}
+.nav-previous:hover { 
+    background: #222;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #222;
+            box-shadow: 0px 0px 0px 2px #222;
+}
+.nav-next:hover { 
+    background: #222;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #222;
+            box-shadow: 0px 0px 0px 2px #222;
+}
+/* ---------------------------------------------------------------------------------------
+    05. Post Format
+--------------------------------------------------------------------------------------- */
+.post-format {
+    background: #3A3737;
+    border-bottom: 1px dotted #48454C;    
+}
+.post-format a {
+    color:#E0E4E9;
+}
+.post-format a:before {
+    color: #E0E4E9;
+}
+.entry-chat {
+    background: #29AAAA;
+}
+.entry-link {
+    background: #29AAAA;
+}
+.entry-link a {
+    color: #E0E4E9;
+}
+.entry-link a:hover {
+    color: #fff;
+}
+.entry-qoute {
+    background: #29AAAA;
+}
+.entry-qoute i {
+    color: #222;
+}
+.entry-qoute blockquote small {
+    color: #E0E4E9;
+}
+/* ---------------------------------------------------------------------------------------
+    06. Sidebar
+--------------------------------------------------------------------------------------- */
+.widget {
+    background: #222;
+    color: #fff;
+}
+.widget-title {
+    color: #777;
+    background: #333;
+}
+.widget p {
+    color: #fff;
+}
+.widget ul li:before {
+    color: #FFFFFF;
+}
+.widget li a {
+    color: #428BCA;
+}
+.widget select {
+    color: #000;
+}
+/* ---------------------------------------------------------------------------------------
+    07. Footer
+--------------------------------------------------------------------------------------- */
+.footer {
+    border-color: #9721BD;  
+}
+.f-widget {
+    background: #222;
+}
+.f-widget h2 {
+    color: #777;
+    background: #333;
+}
+.f-widget p {
+    color: #fff;
+}
+.f-widget ul li:before {
+    color: #fff;
+}
+.f-widget li a {
+    color: #428BCA;
+}
+.copyright {
+    background: #222;
+}
+.footer-nav ul li {
+    border-right: 1px dotted #777;
+}
+.footer-nav li a {
+    color: #777;
+}
+p.copy-text {
+    color: #777;
+}
+/* ---------------------------------------------------------------------------------------
+    08. Misc
+--------------------------------------------------------------------------------------- */
+.scrollup {
+color: #fff;
+background: #222;
+}
+.scrollup:hover {
+    color: #FFF;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #222;
+            box-shadow: 0px 0px 0px 2px #222;
+}

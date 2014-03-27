@@ -1,0 +1,271 @@
+/* 
+=========================================
+COLOR : PURPLE
+=========================================
+*/
+
+/*  ==== TABLE OF CONTENTS ===
+01. GLOBAL
+02. HEADER
+    -TIME
+    - SOCIAL
+    - LOGO
+03. NAV
+04. CONTENT
+    - BREADCRUMB
+    - META
+    - ENTRY
+    - PAGINATION
+05. POST FORMAT
+06. SIDEBAR
+07. FOOTER
+    - WIDGET
+    - COPYRIGHT
+*/
+/* ---------------------------------------------------------------------------------------
+    01. Global
+--------------------------------------------------------------------------------------- */
+body {
+    background-color: #DBC7DF;
+    background-image: url(bg.png);
+}
+/* ---------------------------------------------------------------------------------------
+    02. Header
+--------------------------------------------------------------------------------------- */
+.header-pre {
+    background: #8e44ad;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+    border-color: #1abc9c;
+}
+.time {
+    color: #E0E4E9;
+}
+.social a {
+    background-color: #F6EDFA;
+}
+.social a.twitter:hover {
+    background-color: #48c4d2 !important;
+}
+.social a.facebook:hover {
+    background-color: #3b5998 !important;
+}
+.social a.google-plus:hover {
+    background-color: #d94a39 !important;
+}
+.social a.rss:hover {
+    background-color: #ff6c00 !important;
+}
+.logo a {
+    color: #FF6C5D;
+}
+.header {
+    background: #9b59b6;
+}
+/* ---------------------------------------------------------------------------------------
+    03. Nav
+--------------------------------------------------------------------------------------- */
+#main-nav .current-menu-item > a {
+    background-color: #CB5DFF;
+    color: #FFFFFF;
+}
+#main-nav .current-menu-item li.current-menu-item a,
+#main-nav .current-menu-item li.current-menu-item li.current-menu-item a {
+    background-color: #CB5DFF;
+    color: #414146 !important;
+}
+#main-nav a:hover {
+    background-color: #CB5DFF;
+    color: #FFFFFF;
+}
+#main-nav a {
+    color: #FFFFFF;
+}
+.menu li li {
+    background-color: #8E44AD;
+    margin: 0 !important;
+}
+.menu li li a {
+    color: #FFFFFF !important;
+}
+.menu li li a:hover {
+    background: none repeat scroll 0 0 #CB5DFF !important;
+    color: #FFFFFF !important;
+}
+.mobile-menu {
+    margin: 20px;
+}
+.mobile-menu select {
+    border: 2px solid #D8CDD7;
+    background: #16A085;
+    color: #fff;
+}
+.mobile-menu select option {
+    color: #FFFFFF;
+}
+/* ---------------------------------------------------------------------------------------
+    04. Content
+--------------------------------------------------------------------------------------- */
+.post {
+    background: #16A085;
+}
+.meta {
+    color: #E0E4E9;
+}
+.meta a:hover {
+    color:#FF0;
+}
+.author {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;
+}
+.times {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;      
+}
+.cat {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;
+}
+.cat a {
+    color:#E0E4E9;
+}
+.tag {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;
+}
+.tag a {
+    color:#E0E4E9;
+}
+.comment {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;
+}
+.comment a {
+    color:#E0E4E9;
+}
+.more {
+    background: #8e44ad;
+    color: #E0E4E9;
+}
+.more a {
+    color:#E0E4E9;
+}
+.entry h2 {
+    background: #9b59b6;
+    color: #E0E4E9;
+}
+.entry h2 a {
+    color: #E0E4E9;
+}
+.entry p {
+    color: #fff;
+}
+.thumbnaill {
+    border-bottom: 2px solid #9B59B6;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #8E44AD !important;
+    border-color: #8A20B6 !important;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #8E44AD !important;
+}
+/* ---------------------------------------------------------------------------------------
+    05. Post Format
+--------------------------------------------------------------------------------------- */
+.post-format {
+    background: #8e44ad;
+    border-bottom: 1px dotted #8771A8;    
+}
+.post-format a {
+    color:#E0E4E9;
+}
+.post-format a:before {
+    color: #E0E4E9;
+}
+.entry-chat {
+    background: #29AAAA;
+}
+.entry-link {
+    background: #29AAAA;
+}
+.entry-link a {
+    color: #E0E4E9;
+}
+.entry-link a:hover {
+    color: #fff;
+}
+.entry-qoute {
+    background: #29AAAA;
+}
+.entry-qoute blockquote small {
+    color: #E0E4E9;
+}
+/* ---------------------------------------------------------------------------------------
+    06. Sidebar
+--------------------------------------------------------------------------------------- */
+.widget {
+    background: #16A085;
+    color: #fff;
+}
+.widget h2 {
+    color: #E0E4E9;
+    background: #9B59B6;
+}
+.widget p {
+    color: #fff;
+}
+.widget ul li:before {
+    color: #FFFFFF;
+}
+.widget li a {
+    color: #FFFF00;
+}
+.widget select {
+    color: #000;
+}
+/* ---------------------------------------------------------------------------------------
+    07. Footer
+--------------------------------------------------------------------------------------- */
+.footer {
+    background: #9b59b6;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);  
+    border-color: #9721BD;  
+}
+.f-widget {
+    background: #34495e;
+}
+.f-widget h2 {
+    color: #E0E4E9;
+    background: #2c3e50;
+}
+.f-widget p {
+    color: #fff;
+}
+.f-widget ul li:before {
+    color: #fff;
+}
+.f-widget li a {
+    color: #fff;
+}
+.copyright {
+    background: #8e44ad;
+}
+.footer-nav ul li {
+    border-right: 1px dotted #9b59b6;
+}
+.footer-nav li a {
+    color: #FFF;
+}
+p.copy-text {
+    color: #fff;
+}
+/* ---------------------------------------------------------------------------------------
+    08. Misc
+--------------------------------------------------------------------------------------- */
+.scrollup {
+color: #5A1177;
+}
+.scrollup:hover {
+    color: #5A1177;
+}
